@@ -1,1 +1,4 @@
+software-properties-common
+add-apt-repository -y ppa:openjdk-r/ppa
+apt update
 openjdk-21-jdk-headless
