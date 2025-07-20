@@ -289,7 +289,7 @@ if st.button("Dapatkan Rekomendasi Hero"):
                         st.write(f"ID Hero: {recommended_hero[0]}")
                         st.markdown("---")
                         st.info("Setelah melihat rekomendasi ini, silakan berikan pendapat Anda apakah rekomendasi ini **sesuai dengan meta (keadaan hero populer/kuat) saat ini** atau tidak.")
-                        st.markdown("Anda bisa mengisi kuesioner Anda di sini: [Link Kuesioner Anda]") # Ganti dengan link kuesioner Anda
+                        st.markdown("Anda bisa mengisi kuesioner Anda di sini: [https://forms.gle/na9m7eBkM5DqbxWj7]") # Ganti dengan link kuesioner Anda
                 else:
                     st.warning("Tidak ditemukan rekomendasi hero berdasarkan pilihan saat ini.")
 
